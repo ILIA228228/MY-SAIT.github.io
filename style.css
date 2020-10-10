@@ -1,0 +1,40 @@
+p {
+    font-size: 25px;
+    color:black;
+    font-family: 'Noto Serif', serif;
+    background-color: red;
+}
+div {
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 90px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,6);
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+a{
+    color: blue;
+    font-size: 30px;
+    text-decoration: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: firebrick;
+    border-color:black ;
+    transition: all 0.3s ease;
+}
